@@ -13,7 +13,7 @@ function App(props){
   }
   const heros = {
       name: 'Corporate Heros',
-      logoSrc: T2
+      logoSrc: './components/assets/images/team2.jpg',
   }
   const nih = {
       name: 'NIH',

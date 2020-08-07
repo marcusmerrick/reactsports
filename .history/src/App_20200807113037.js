@@ -1,28 +1,28 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
+import Scoreboard from './components/scoreboard/Scoreboard'
 import Game from './components/game/Game'
-import Nih from './components/assets/images/NIH.jpg'
-import mut from './components/assets/images/mutation.png'
-import T2 from './components/assets/images/team2.jpg'
-import T1 from './components/assets/images/team1.jpg'
+import Team from './components/team/Team'
 
 function App(props){
   const covid = {
       name: 'Covid 19s',
-      logoSrc: T1
+      logoSrc: "./assets/images/team1.jpg",
   }
   const heros = {
       name: 'Corporate Heros',
-      logoSrc: T2
+      logoSrc: './assets/images/team2.jpg',
   }
   const nih = {
       name: 'NIH',
-      logoSrc: Nih,
+      logoSrc: "./assets/images/NIH.jpg",
   }
   const mutation = {
       name: 'Mutations',
-      logoSrc: mut,
+      logoSrc: "./assets/images/mutation.png"
   }
+  
 
 
   return (

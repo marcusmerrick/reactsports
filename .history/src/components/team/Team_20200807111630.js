@@ -1,0 +1,2 @@
+
+import Scoreboard from '../'
